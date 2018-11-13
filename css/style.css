@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #777;
+}
+.weather-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.weather-content__logo{
+	font-size: 50px;
+}
+.weather-content__input{
+	border: 2px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 300px;
+}
+.weather-content__button{
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+}
