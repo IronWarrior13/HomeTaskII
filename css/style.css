@@ -8,6 +8,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+		margin-top: 10%;
 }
 .weather-content__logo{
 	font-size: 50px;
@@ -23,4 +24,8 @@ body{
 	border: none;
 	border-radius: 5px;
 	height: 30px;
+}
+#weather-get{
+	justify-content: left;
+	display: none;
 }

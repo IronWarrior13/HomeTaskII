@@ -9,9 +9,19 @@
 	<div class="weather-content">
 		<h1 class="weather-content__logo">Input City</h1>
 		<input class="weather-content__input" id="nameCity" value="">
-		<input class="weather-content__button" type="button" value="Click"
-		onclick="getWeatherAPI();">
-		<script src="js/script.js"></script>
+		<input class="weather-content__button" type="button" id = "set-weather" value="Click">
+		<div id="weather-get">
+			<h3>In Weather of <span id = "city"></span></h3>
+			<p>ID city: <span id = "id"></span></p>
+			<p>Weather: <span id = "weather"></span></p>
+			<p>Description: <span id = "description"></span></p>
+			<p>Pressure: <span id = "pressure"></span> mm.pm.cm</p>
+			<p>Temp: <span id = "temp"></span></p>
+			<p>Humidity: <span id = "humidity"></span></p>
+			<p>Visibility: <span id = "visibility"></span> km</p>
+		</div>
 	</div>
+
+	<script src="js/ModuleAPI.js"></script>
 </body>
 </html>
